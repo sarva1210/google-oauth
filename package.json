@@ -1,25 +1,17 @@
 {
-  "name": "google-oauth",
+  "name": "googleoauth",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sarva1210/google-oauth.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/sarva1210/google-oauth/issues"
-  },
-  "homepage": "https://github.com/sarva1210/google-oauth#readme",
   "dependencies": {
-    "dotenv": "^17.4.2",
+    "dotenv": "^17.4.1",
     "express": "^5.2.1",
     "morgan": "^1.10.1",
     "passport": "^0.7.0",
